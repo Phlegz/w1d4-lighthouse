@@ -14,7 +14,7 @@ function comparator(obj) {
           return 1
       // comparing the ages if the names are the same
       else {
-        return (a.age < b.age) ? -1 : 1
+        return (a.age < b.age) ? 1 : -1
       }
   })
   return students
